@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html,
+body {
+  height: 100%; }
+
+body {
+  font-size: 15px;
+  font-family: "Spartan", sans-serif; }
+
+.container {
+  background-color: #f7f2f7; }
+  @media (min-width: 768px) {
+    .container {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center; } }
+  .container .page {
+    background-color: white; }
+    @media (max-width: 767px) {
+      .container .page {
+        padding: 20px;
+        background-image: url("images/bg-pattern-top-mobile.svg"), url("images/bg-pattern-bottom-mobile.svg"); } }
+    @media (min-width: 768px) {
+      .container .page {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 40px;
+        background-image: url("images/bg-pattern-top-desktop.svg"), url("images/bg-pattern-bottom-desktop.svg"); } }
+    @media (max-width: 767px) {
+      .container .page > div {
+        display: block; } }
+    @media (min-width: 768px) {
+      .container .page > div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center; } }
+    @media (max-width: 767px) {
+      .container .page .info .disc {
+        text-align: center;
+        padding-top: 10px; } }
+    @media (min-width: 768px) {
+      .container .page .info .disc {
+        width: 50%; } }
+    .container .page .info .disc h1 {
+      font-size: 2.2em;
+      font-weight: 700;
+      color: #502050;
+      margin-bottom: 10px; }
+    .container .page .info .disc p {
+      font-size: 80%;
+      font-weight: 500;
+      color: #937b92; }
+    @media (max-width: 767px) {
+      .container .page .info .feedback {
+        text-align: center;
+        padding-top: 10px; } }
+    @media (min-width: 768px) {
+      .container .page .info .feedback {
+        width: 50%; } }
+    .container .page .info .feedback .stars {
+      background-color: #f7f2f7;
+      padding: 10px;
+      border-radius: 4px;
+      color: #502050;
+      font-size: 70%;
+      font-weight: 700; }
+      @media (max-width: 767px) {
+        .container .page .info .feedback .stars {
+          width: 100%;
+          margin-left: 0 !important;
+          margin-bottom: 15px; } }
+      @media (min-width: 768px) {
+        .container .page .info .feedback .stars {
+          margin-bottom: 10px;
+          padding-left: 20px;
+          width: 350px; } }
+      .container .page .info .feedback .stars span {
+        margin-right: 15px; }
+        .container .page .info .feedback .stars span img {
+          width: 12px;
+          height: 12px;
+          margin-right: 4px; }
+    .container .page .info .feedback .stars.two {
+      margin-left: 30px; }
+    .container .page .info .feedback .stars.three {
+      margin-left: 60px; }
+    @media (max-width: 767px) {
+      .container .page .people {
+        margin-top: 20px; } }
+    @media (min-width: 768px) {
+      .container .page .people {
+        margin-top: 30px; } }
+    .container .page .people .person {
+      background-color: #502050;
+      border-radius: 5px;
+      padding: 20px; }
+      @media (max-width: 767px) {
+        .container .page .people .person {
+          margin-right: 0;
+          margin-top: 15px; } }
+      @media (min-width: 768px) {
+        .container .page .people .person {
+          margin-right: 20px; } }
+      .container .page .people .person .profile {
+        display: flex;
+        align-items: center; }
+        .container .page .people .person .profile img {
+          width: 32px;
+          height: 32px;
+          border-radius: 50%;
+          margin-right: 15px; }
+        .container .page .people .person .profile div .name {
+          font-size: 65%;
+          font-weight: 700;
+          color: white;
+          margin-bottom: 5px; }
+        .container .page .people .person .profile div .status {
+          font-size: 65%;
+          font-weight: 500;
+          color: #ee68a4; }
+      .container .page .people .person .text {
+        margin-top: 15px; }
+        .container .page .people .person .text p {
+          font-size: 65%;
+          font-weight: 500;
+          color: #f7f2f7;
+          line-height: 15px; }
+    .container .page .people .person.two {
+      margin-top: 25px; }
+    .container .page .people .person.three {
+      margin-top: 50px;
+      margin-right: 0; }
+
+footer {
+  font-size: 11px;
+  text-align: center; }
+  footer a {
+    color: #3e52a3; }
+
+/*# sourceMappingURL=main.css.map */
